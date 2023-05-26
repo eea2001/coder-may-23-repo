@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(250,235,220)
+    ;
+}
+/* Logo */
+.circle {
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Roboto', sans-serif; 
+    font-size: 40px;
+    color: black;
+}
+
+/* Title */
+.text-container {
+    position: absolute;
+    top: 2px;
+    left: 120px;
+}
+
+.text-container h1 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.text-container h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+
+
