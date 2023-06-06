@@ -96,11 +96,12 @@ body {
 
   /*clickable icons for linkedin and github*/
   .social-links {
+    padding-top: 800px;
     position: absolute;
-    bottom: 60px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 50px; 
+    transform: translate(-50%, -50%);
+    width: fit-content;
   }
   .social-links a {
     display: inline-block;
@@ -114,7 +115,11 @@ body {
     width: 70px;
     height: 70px;
   }
-
+  @media (max-width: 600px) {
+    .home-image {
+      padding-bottom: 100px; /* increase the padding for smaller screens */
+    }
+  }
 /*__________________STYLES FOR ABOUT_____________________*/
 .about-container {
   display: grid;
