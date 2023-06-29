@@ -1,0 +1,14 @@
+define a function called is_prime(number):
+  for i in range from 2 to number - 1:
+   if number is divisible by i:
+    return False 
+  return True for other numbers that don't meet these conditions 
+
+intialise prime_numbers as an empty list 
+
+for number in range from 2 to 101:
+  if is_prime(number):
+   append number to prime_numbers
+
+print the prime_numbers list 
+
