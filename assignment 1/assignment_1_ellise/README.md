@@ -38,13 +38,13 @@ Transmission Control Protocol is one of the most common communications standard 
 ##### Q4. Identify THREE data structures used in the Python programming language and explain the reasons for using each.
 
 ###### Lists
-Lists in Python are mutable data structures that can store a sequence of data [400]. Items can be removed or added to a list. You would use a list for storing data of different types, and to store a collection of items that may change over time or that you want to manipulate based on certain conditions in a program.
+Lists in Python are mutable data structures that can store a sequence of data [12]. Items can be removed or added to a list. You would use a list for storing data of different types, and to store a collection of items that may change over time or that you want to manipulate based on certain conditions in a program.
 
 ###### Sets
-Sets in Python are a collection of unique unordered elements [400]. You can use it to eliminate elements that are duplicate or 'not unique'. Sets in Python are contained in flower braces and the data within in can be used to perform mathematical operations, find common elements between sets, and to quickly find out whether an element is in a set or not. 
+Sets in Python are a collection of unique unordered elements [12]. You can use it to eliminate elements that are duplicate or 'not unique'. Sets in Python are contained in flower braces and the data within in can be used to perform mathematical operations, find common elements between sets, and to quickly find out whether an element is in a set or not. 
 
 ###### Dictionaries
-Dictionaries in Python are data structures that use key-value pairs to store data [400]. It allows you to retreieve certain values later on in your code based on the corresponding key names. It is useful if you are wanting to use a collection of data that is going to be used a lot in the program and you want to be able to quickly retrieve that value anywhere else in the code just by calling the unique key.
+Dictionaries in Python are data structures that use key-value pairs to store data [12]. It allows you to retreieve certain values later on in your code based on the corresponding key names. It is useful if you are wanting to use a collection of data that is going to be used a lot in the program and you want to be able to quickly retrieve that value anywhere else in the code just by calling the unique key.
 
 ##### Q5. Describe the features of interpreters and compilers and how they are different.
 
@@ -52,49 +52,50 @@ Both interpreters and compilers are tools for language translation and execution
 
 To execute some code, interpreters will translate and execute each line of code, one by one; a develoepr is therefore given instant feedback which allows them to begin the process of debugging. Contrastingly, compilers translate the entire source code into machine code or a lower-level representation before execution.
 
-In order to translate the code, interepeters translate source code into machine code or an intermediate represenation without creating a separate executable file, whereas the translation process for compilers is significantly more complex: first is lexical analysis, parsing, semantic analysis, optmisation and code generation. This process creates an executable file that runs independently. Since compilers translate the source code only one time and at an earlier stage, the code is executed faster than interpreted code because the code is translated into machine code as it is running [500].
+In order to translate the code, interepeters translate source code into machine code or an intermediate represenation without creating a separate executable file, whereas the translation process for compilers is significantly more complex: first is lexical analysis, parsing, semantic analysis, optmisation and code generation. This process creates an executable file that runs independently. Since compilers translate the source code only one time and at an earlier stage, the code is executed faster than interpreted code because the code is translated into machine code as it is running [13].
 
-Interpeters allow for dynamic typing which lets you to assign variables and the types of variables will be checked as the code is being executed [501]. This allows a developer to be more flexible when writing their code, however the code may not run very efficiently. In comaprison, compilers have static typing, which means you must have explicity type declaration for your variables. This is less flexible, but allows early error detection and faster execution speed [502]. 
+Interpeters allow for dynamic typing which lets you to assign variables and the types of variables will be checked as the code is being executed [14]. This allows a developer to be more flexible when writing their code, however the code may not run very efficiently. In comaprison, compilers have static typing, which means you must have explicity type declaration for your variables. This is less flexible, but allows early error detection and faster execution speed [15]. 
 
 ##### Q6. Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
 ###### Python
 Python is a programming language has many uses and is widely used by programmers to build the server side of websites and software. Python is relatively easy to learn as it is designed to be read easily and its syntax and structure promotes code clarity and makes it more human-friendly to read and make meaning of the code as it is basically like reading English. This is why it is often recommended that coding beginners start by learning Python. 
 
-It's also very versatile so you can use it along with a variety of libraries and frameworks that are used for many different purposes. For example, you can use Python along with Django and Flask for web dev, NumPy for for scientific computing, and TensorFlow for machine learning [100]. This minimises how many languages you need to learn and instead you can adapt one language to many different domains. 
+It's also very versatile so you can use it along with a variety of libraries and frameworks that are used for many different purposes. For example, you can use Python along with Django and Flask for web dev, NumPy for for scientific computing, and TensorFlow for machine learning [16]. This minimises how many languages you need to learn and instead you can adapt one language to many different domains. 
 
-Python uses an interpeter so it features dynamic typing which means that you can be more flexbible when assigning variables because you don't need to include explicity type declarations, but the performance may suffer as well as the execution speed because of this [101]. However, Python's line by line execution model makes it suitable for developers to test their code faster and enables more rapid prototyping. Another weakness of Python is that you cannot execute multiple threads concurrently because of Python's Global Interpreter Lock (GIL) [102].
+Python uses an interpeter so it features dynamic typing which means that you can be more flexbible when assigning variables because you don't need to include explicity type declarations, but the performance may suffer as well as the execution speed because of this [17]. However, Python's line by line execution model makes it suitable for developers to test their code faster and enables more rapid prototyping. Another weakness of Python is that you cannot execute multiple threads concurrently because of Python's Global Interpreter Lock (GIL) [18].
 
 ###### C++
-C++ is also very versatile and adaptable but it is more complex than Python. It is an extension of the C language that is often for web browser and software application development, operating systems, game development and databse management [103]. C++ is a complex programming language and has more intricate syntax, so it is more difficult for coding beginners to learn. However, C++ is a compiled language so the code is excuted faster and is a high performing progrmaming language. It is also portable which means that you can run a program on various operating systems and interface. Since C++ programs are compiled, it is suitable to use for projects that involve building hardware since it translates source code to low-level machine code. Other advantages include the level of scability as it can deal with an increasing amount of data [104].
+C++ is also very versatile and adaptable but it is more complex than Python. It is an extension of the C language that is often for web browser and software application development, operating systems, game development and databse management [19]. C++ is a complex programming language and has more intricate syntax, so it is more difficult for coding beginners to learn. However, C++ is a compiled language so the code is excuted faster and is a high performing progrmaming language. It is also portable which means that you can run a program on various operating systems and interface. Since C++ programs are compiled, it is suitable to use for projects that involve building hardware since it translates source code to low-level machine code. Other advantages include the level of scability as it can deal with an increasing amount of data [20].
 
 ##### Q7. Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
 
 ###### Freedom of thought, conscience, speech and the media
 
+Australia is a signatory to internation human rights treaties such as the Internation Covenant on Civil and Political Rights (ICCPR). Articles 19 and 20 protects the right to freedom of opinion and expression within Australia [21]. IT professionals working on websites, social media and news platforms must refer to these articles to ensure that users' freedom of opinion and expression is protected. The right to freedom of opinion means the right to hold opnions without interference and the the right to freedom of expression involves all forms of communication including media. However, IT professionals should also refer to the Racial Discrmination Act of 1975 and the Australian Human Rights Commission Act of 1986 [21], as certain forms of speech that promote hatred and discrimination are illegal. Furthermore, freedom of speech in Australia can also be also limited for reasons of national security, public health and public order. To tackle hate speech, harrassment and misinformation, developers and engineers can build automated systems to filter, review and moderate user-generated content. These must be designed to enforce community guildelines that must be in accordance with the law. Using machine learning, pattern recognition and natural language processing, IT professionals can tackle these ethical issues. For example, on the social media platform Twitter, there are hidden reply mechanisms to hide content that violate their guidelines. They have also launched Birdwatch in 2021 (now called Community Notes) where users can fact check information [22]. They also have a mechanism that prompts users to read articles and content linked in a Tweet before retweeting it. Twitter's algorithm's that determine what content that is shown to certain users can be effective in tailoring their experience on the platform and ensuring safety and protection from harrassment and explicit content, but it can also result in censorship as even automated systems and machine learning is subject to human biases. 
+
+This gives rise to the issue of freedom of speech and censorship which played out in 2021 with the banning of Donald Trump from Twitter. Due to the larger cultural context and political climate, his posts were considered to be inciting violence and violated their Glorification of Violence policy [23]. However, the suspension of his account was decided after careful consideration and they took time to assess the Tweets against their policy. This generated debate about private companies and whether they should be able to censor people and regulate speech.
+
+The ban was not completely within the domain of developers and IT professionals, and most likely was decided by specialists in legal and policy. However, developers still play a crucial role in moderating content according to their policies. In this example, the wider context of the current events influenced the way these Tweets were interpreted and the actions taken against them, which shows that the right to freedom of speech is fraught and subjective. IT professionals and developers must collaborate with policymakers and legal professionals so that they can design their platforms and systems in way that balances the right to freedom of expression with moral and ethical responsibilities, as well as legal standards. Developers are crucial in shaping the digital landscape in which we all participate; they must design algorithms that promote diverse thought and speech, but uphold truth and safety. As the digital landscape evolves, so will the laws that govern it, and IT professionals must build websites that adheres to these evolving regulations. 
 
 ###### Aggressive sales and marketing practices designed to mislead and deceive consumers
-
- 
  One of the most important ways that a web developer is responsible for sales and marketing practices is in implementing and managing cookies on websites. Cookies are text files that a website sends to a user's device when the user visits a that domain and it is stored on their browser and device so that when they visit the website again the server can identify them and retreive that information. Examples of information that gets stored is login information, language preferences, items saved in a shopping cart, and sometimes browsing history in order to show you ads that are uniquely relevent to you. 
 
  Web developers are responsible for writing the code that sets cookies, implementing mechanisms that enable consent from the user to user cookies and manage their cookie preferences, deleting and managing information, ensuring security to prevent unauthorised access of cookies and adhering to the laws that determine what information can actually be stored and retrieved from users. Hence, web play a crucial role in writing and implementing code that adheres with laws and regulations. 
 
-In 2012, the Wall Street Journal reported that Google had engaged in unauthorised data collection by setting cookies without user consent and in violation with Safari's privacy settings [C].Safari is Apple's default browser, but Google was able set cookies on iPhone and iPads through Google advertisements displayed on websites visited by Safari users. The developers manipulated the code so that when users visited websites that featured Google advertisements, it triggered the sending of third-party cookies to the user's browser. This was enabled by Google's DoubleClick advertising platform that allows them to display ads across different websites and was extremely deceptive as their ads include an invisible form submission which tells the browser that the third-party website has been interacted with by the user and allowed them to send cookies. This allowed Google to track and analyse user's browsing activity for different purposes including targeted advertising. Although Safari's privacy settings did not allow third-party cookies, Google was able to bypass this which gave rise to concerns about privacy, data sharing and user's consent and agency to manage their own preferences. Google's web developers held a significant amount of responsibility as they were the ones who wrote and implemented the code to find a loophole in Safari's privacy settings and exploit it to enable tracking in the pursuit of advertising revenue.
+In 2012, the Wall Street Journal reported that Google had engaged in unauthorised data collection by setting cookies without user consent and in violation with Safari's privacy settings [26].Safari is Apple's default browser, but Google was able set cookies on iPhone and iPads through Google advertisements displayed on websites visited by Safari users. The developers manipulated the code so that when users visited websites that featured Google advertisements, it triggered the sending of third-party cookies to the user's browser. This was enabled by Google's DoubleClick advertising platform that allows them to display ads across different websites and was extremely deceptive as their ads include an invisible form submission which tells the browser that the third-party website has been interacted with by the user and allowed them to send cookies. This allowed Google to track and analyse user's browsing activity for different purposes including targeted advertising. Although Safari's privacy settings did not allow third-party cookies, Google was able to bypass this which gave rise to concerns about privacy, data sharing and user's consent and agency to manage their own preferences. Google's web developers held a significant amount of responsibility as they were the ones who wrote and implemented the code to find a loophole in Safari's privacy settings and exploit it to enable tracking in the pursuit of advertising revenue.
 
-In 2011, Google had agreed to a consent agreement as they had already been charged by the Federal Trade Commission (FTC) of engaging in deception and breaking their own promises of user privacy through Google Buzz [B]. The Safari cookie loophole violated their own agreement and resulted in a $22.5 million civil penalty paid to the FTC which is a government agency in the United States whose mission is to protect the public from "deceptive or unfair business practices and from unfair methods of competition through law enforcement, advocacy, research, and education" [A]. 
+In 2011, Google had agreed to a consent agreement as they had already been charged by the Federal Trade Commission (FTC) of engaging in deception and breaking their own promises of user privacy through Google Buzz [25]. The Safari cookie loophole violated their own agreement and resulted in a $22.5 million civil penalty paid to the FTC which is a government agency in the United States whose mission is to protect the public from "deceptive or unfair business practices and from unfair methods of competition through law enforcement, advocacy, research, and education" [24]. 
 
 The ethical liability of the Google developers and IT professionals in this case is very clear as they actively chose to code a deceptive form submission which is very to avoid. IT professionals must code in accordance with the principles and laws provided to them by regulatory bodies like the FTC. They must ensure that online interaction that takes place including the manipulation and management any personal information on the server side is practiced with the discretion of users in mind. They must prioritise user privacy above all else.
 
-In terms of Australian law, developers can refer to the Privacy Act of 1988 for guidelines regarding data protection. There are thirteen Australian Privacy Protection Principles (APPs) within this Act that provide a framework for data protection [19]. 
+In terms of Australian law, developers can refer to the Privacy Act of 1988 for guidelines regarding data protection. There are thirteen Australian Privacy Protection Principles (APPs) within this Act that provide a framework for data protection [24]. 
 
 These laws are flexible as they are guided by principles, which allow companies to interpret them flexibly which means that developers have to be extra careful, making sure to interpret them in the most conservative way to reduce the risk of violating the law. 
 
 The APPs definitely assist developers in designing code ethically. APP1 delineates that organisations must "manage personal information in an open and transparent  way", this would include explicitly stating what personal information websites will collect and how it will be used. Therefore, developers must inform users of this before mechanisms that collect information are triggered. APP2 called 'Anonymity and pseudonymity' ensures that users have the option for their information to be stored anonymously, which means that their information will not be able to be linked to their real identity which is important in preventing identity theft in case of data breaches. This will guide developers in their management of information. APP7 is very relevant to the use of data collected through cookies as it is called 'Direct marketing' and states that "an organisation may only use or disclose personal information for direct marketing purposes if certain conditions are met". This prevents companies from deceiving users such as in the Google Safari cookie scandal. 
 
-_All information in quotation marks in the above paragraph have been taken directly from Source [20]._
-
-
+_All information in quotation marks in the above paragraph have been taken directly from Source [29]._
 
 
 ##### Q8. Explain control flow, using examples from the Python programming language
@@ -128,7 +129,7 @@ The if statement tells Python to print different strings depending on if these s
 elif is_raining == False and temp <= 15:
  print("It's not raining but it's cold!")
 elif is_raining == False and temp >= 15:
- print("It's warm but not raining :)")
+ print("It's warm but not raining!)
 ```
 
 the elif statements tell Python what to do in other specific conditions other than the original one in the if statement.elif means 'else if' and it allows you to build upon the instructions given in the if statement. If the if statement is not satisfied, the program executes the next elif block of code until the conditions are satisfied. In this case, if the first elif statement is satisfied and therefore the program prints the string "It's not raining but it's cold!", the program will not bother checking if the next elif statement is satisfied.
@@ -175,7 +176,6 @@ while True:
 
 In this case, the break statement is used to terminate the loop of prompting the user to input skills when the user enters 'x'. 
 
-
 ##### Q9. Explain the difference between type coercion and type conversion. Are either of these used in Python?
 Type coercion is implicit type conversion that takes place automatically through in-built functions of the programming language. It converts from data of one type to a different data type. For example, in Python, type coercion is happening when you add an integer with a floating-point number. You don't need to explicitly add code that will convert an integer to a floating-point before adding those two numbers together because Python will automatically do that for you. 
 
@@ -186,13 +186,23 @@ Data types in programming include integers, float-point numbers, strings, Boolea
 
 Integers represent whole numbers with no fractional values. It can also be a negative number. Examples are integers are -1,0, and 1. A programming will store the integer value by allocating it a specific amount of memory. Integers can also be used in mathematical operations and logical operations.
 
-Characters are a data type that represents a single character (e.g. 'A', '!', '?') and is often represented using the American Standard Code for Information Interchange (ASCII), where a numeric value between 0 and 127 is assigned to each character. Characters are usually 8-bit (1 byte) [100] You can use characters in logical and comparison operations, and can be concatenated to form strings. 
+Floating-point numbers are numbers that can have a fractional value and therefore can represent highly precise values. An example of a float is 3.000000001000008923748329.
+
+Characters are a data type that represents a single character (e.g. 'A', '!', '?') and is often represented using the American Standard Code for Information Interchange (ASCII), where a numeric value between 0 and 127 is assigned to each character. Characters are usually 8-bit (1 byte) [30] You can use characters in logical and comparison operations, and can be concatenated to form strings. 
 
 Strings are sequences or combinations of characters that are defined by either single or double quotation marks. Memory allcoation depends on the length of the string. Strings can be used to represent a value. You can concatenate strings ot make them longer, or remove portions, manipulate themand perform comparison operations. Programs can take strings as input and output. An example of a string is "Hello World!" 
 
+Booleans data is used to show logical values: True or False. They are often used in logical operations, conditional statements and involved in control flow. They can also return the result of comparison operations (e.g. if you print 5 > 1, the output will be True). Booleans are very helpful in programming as they can direct the program's decision-making and flow. 
 
+Arrays are collections of elements that are of the same data type. Similar to a list, each element has an index position within the array, the elements can be stored under a single variable name and the data can be accessed and manipulated. 
+Examples of arrays are:
 
+```
+girl_names = ["Giselle", "Jennifer", "Stacy"]
 
+ages_list = [23, 22, 26]
+```
+Each element has an index position. So "Giselle" will be 0, and 26 will be 2. 
 
 ##### Q11. Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
 ###### Table
@@ -203,8 +213,6 @@ The Customer Order class will have attributes that store the items that have bee
 The menu class will define attributes related to the menu items like price and description. This will be especially relevant to front-end development of the website when information needs to be displayed in the menu to customers on the GUI. 
 ###### Kitchen 
 The kitchen class will stores information about the status of the order. In this class, there will be functions defined including send_order: order is stored in the system and sent to kitchen; notify_staff: a function that notifies the kitchen staff and tells them what to make; being_prepared: a function that allows kitchen to update the app if the order is being prepared. 
-
-
 
  ##### Q12. Identify and explain the error in the code snippet below that is preventing correct execution of the program
  The error is that the the user input is treated by Python as a string, so you have to convert it to a number before it can be used in the fahrenheit calculation. 
@@ -327,10 +335,6 @@ print("By learning these skills, you can improve your coding skill score by:", m
 ```
 
 
-
-
-
-
 Sources
 [1] https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 [2] https://www.techtarget.com/searchnetworking/definition/packet
@@ -343,20 +347,26 @@ Sources
 [9] https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/
 [10]https://www.fortinet.com/resources/cyberglossary/tcp-ip#:~:text=Transmission%20Control%20Protocol%20(TCP)%20is,data%20and%20messages%20over%20networks.
 [11] https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/
+[12] https://www.edureka.co/blog/data-structures-in-python/#datastructure
+[13] https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/
+[14] https://www.guru99.com/difference-compiler-vs-interpreter.html
+[15] https://www.baeldung.com/cs/statically-vs-dynamically-typed-languages
+[16]https://www.geeksforgeeks.org/libraries-in-python/
+[17] https://realpython.com/lessons/dynamic-vs-static/
+[18] https://peps.python.org/pep-0703/
+[19] https://www.simplilearn.com/tutorials/cpp-tutorial/top-uses-of-c-plus-plus-programming#:~:text=in%20the%20Field-,What%20is%20C%2B%2B%20Used%20For%3F,engineering%2C%20data%20structures%2C%20etc.
+[20] https://www.ko2.co.uk/advantages-disadvantages-of-c-plus-plus/
+[21] https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-freedom-opinion-and-expression
+[22] https://www.searchenginejournal.com/twitter-expands-community-notes-to-all-users/473911/#close
+[23] https://blog.twitter.com/en_us/topics/company/2020/suspension
+[24] https://www.ftc.gov/about-ftc/mission
+[25] https://www.ftc.gov/news-events/news/press-releases/2011/03/
+[26] ftc-charges-deceptive-privacy-practices-googles-rollout-its-buzz-social-network
+[27] https://www.ftc.gov/news-events/news/press-releases/2012/08/google-will-pay-225-million-settle-ftc-charges-it-misrepresented-privacy-assurances-users-apples
+[28] https://www.cookiebot.com/en/australia-privacy-policy/
+[29] https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference
+[30] https://www.indeed.com/career-advice/career-development/data-type-examples
 
 
 
-[100] https://www.futurelearn.com/info/blog/what-is-python-used-for
-[101] 
 
-
-
-
-
-
-[A] https://www.ftc.gov/about-ftc/mission
-[B] https://www.ftc.gov/news-events/news/press-releases/2011/03/
-[F] ftc-charges-deceptive-privacy-practices-googles-rollout-its-buzz-social-network
-[C] https://www.ftc.gov/news-events/news/press-releases/2012/08/google-will-pay-225-million-settle-ftc-charges-it-misrepresented-privacy-assurances-users-apples
-[D] https://www.cookiebot.com/en/australia-privacy-policy/
-[E] https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference
